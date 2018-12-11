@@ -1,5 +1,6 @@
-evo
-
 yarn install
 
-gulp
+gulp - start
+
+gulp-imagemin - Minify images
+
