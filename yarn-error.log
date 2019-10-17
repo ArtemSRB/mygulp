@@ -2,33 +2,28 @@ Arguments:
   C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js init
 
 PATH: 
-  C:\Program Files (x86)\Common Files\Intel\Shared Files\cpp\bin\Intel64;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\nodejs\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Yarn\bin\;C:\Program Files\Git\cmd;C:\Ruby24-x64\bin;C:\Users\Artem\AppData\Local\Microsoft\WindowsApps;C:\Program Files\nodejs;C:\Users\Artem\AppData\Local\Yarn\bin;C:\Users\Artem\AppData\Roaming\npm
+  C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Yarn\bin\;C:\Program Files\nodejs\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Users\Artem\AppData\Local\Microsoft\WindowsApps;C:\Users\Artem\AppData\Local\Yarn\bin;C:\Users\Artem\AppData\Roaming\npm;
 
 Yarn version: 
-  1.7.0
+  1.15.2
 
 Node version: 
-  8.11.2
+  10.15.3
 
 Platform: 
   win32 x64
 
 Trace: 
-  Error: canceled
-      at Interface.<anonymous> (C:\Program Files (x86)\Yarn\lib\cli.js:131036:13)
-      at emitNone (events.js:106:13)
-      at Interface.emit (events.js:208:7)
-      at Interface._ttyWrite (readline.js:774:16)
-      at ReadStream.onkeypress (readline.js:158:10)
-      at emitTwo (events.js:126:13)
-      at ReadStream.emit (events.js:214:7)
-      at emitKeys (internal/readline.js:420:14)
-      at emitKeys.next (<anonymous>)
-      at ReadStream.onData (readline.js:1010:36)
+  SyntaxError: E:\Job\mygulp\package.json: Unexpected token } in JSON at position 576
+      at JSON.parse (<anonymous>)
+      at C:\Program Files (x86)\Yarn\lib\cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (C:\Program Files (x86)\Yarn\lib\cli.js:304:30)
+      at C:\Program Files (x86)\Yarn\lib\cli.js:315:13
 
 npm manifest: 
   {
-    "name": "tradecoin",
+    "name": "evo",
     "version": "1.0.0",
     "description": "",
     "main": "index.js",
@@ -44,12 +39,13 @@ npm manifest:
       "gulp-livereload": "^3.8.1",
       "gulp-rigger": "^0.5.8",
       "gulp-sass": "^3.1.0",
+      "gulp-typograf": "^3.1.0",
       "gulp-watch": "^5.0.0",
       "gulp-webserver": "^0.9.1"
     },
     "dependencies": {
+      "gulp-autoprefixer": "^6.0.0",
       "gulp-plumber": "^1.2.0",
-      "npm": "^6.0.1"
     }
   }
 
